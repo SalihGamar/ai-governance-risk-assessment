@@ -1,1 +1,8 @@
+risk_category,base_risk_score,lifecycle_stage,control_present,adjusted_risk_score,notes
+Data Sensitivity,3,Proposed,No,3,Initial assessment before controls
+Data Sensitivity,3,Deployed,No,5,Live system using sensitive data without monitoring
+Bias & Fairness,2,Proposed,No,2,Potential fairness review required
+Bias & Fairness,2,Deployed,No,4,Deployed decision system without bias testing
+Operational Dependency,3,Deployed,Yes,3,Controls exist but dependency remains high
+Regulatory Exposure,3,Deployed,No,5,Deployed system in regulated area without review
 
