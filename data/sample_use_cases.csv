@@ -1,1 +1,7 @@
+use_case_id,business_function,ai_description,ai_capability,lifecycle_stage,data_type,automation_level,existing_controls
+UC-001,HR,AI resume screening system,NLP,Proposed,Personal Data,High,None
+UC-002,Operations,AI demand forecasting tool,Prediction,In Development,Operational Data,Medium,Basic validation checks
+UC-003,Finance,AI fraud detection system,Prediction,Deployed,Financial Data,High,Monitoring dashboard
+UC-004,Customer Service,AI chatbot for customer inquiries,NLP,Deployed,Customer Data,Medium,None
+UC-005,IT,AI log anomaly detection system,Anomaly Detection,Deployed,System Logs,Medium,Alert monitoring enabled
 
