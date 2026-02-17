@@ -68,9 +68,14 @@ use_cases["governance_decision"] = use_cases.apply(
     axis=1
 )
 
-print(use_cases[[
-    "use_case_id",
-    "classified_capability",
-    "calculated_risk_score",
-    "governance_decision"
+print("\nAI Governance Assessment Results\n")
+print("-" * 50)
+
+for index, row in use_cases.iterrows():
+    print(f"Use Case: {row['use_case_id']}")
+    print(f"Capability: {row['classified_capability']}")
+    print(f"Risk Score: {row['calculated_risk_score']}")
+    print(f"Decision: {row['governance_decision']}")
+    print("-" * 50)
+
 ]])
