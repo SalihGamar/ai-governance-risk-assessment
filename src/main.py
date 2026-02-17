@@ -3,7 +3,6 @@ import pandas as pd
 # Load dataset
 use_cases = pd.read_csv("data/sample_use_cases.csv")
 
-
 # Classify AI capability based on description keywords
 def classify_ai_capability(description):
     description = description.lower()
